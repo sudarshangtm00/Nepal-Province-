@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <!-- styles -->
+  <link rel="stylesheet" href="http://owsgip.itc.utwente.nl/base/ExtJS/resources/css/ext-all.css"/>
+  <link rel="stylesheet" href="http://owsgip.itc.utwente.nl/base/GeoExt/resources/css/geoext-all.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+ 
+  <!-- ExtJS libraries -->
+  <script src="http://owsgip.itc.utwente.nl/base/ExtJS/adapter/ext/ext-base.js"></script>
+  <script src="http://owsgip.itc.utwente.nl/base/ExtJS/ext-all.js"></script>
+ 
+ <!-- Geo Scripts -->
+  <script src="http://maps.google.com/maps/api/js?v=3.6&sensor=false"></script>
+  <script src="http://owsgip.itc.utwente.nl/base/OpenLayers/OpenLayers.js"></script>
+  <script src="http://owsgip.itc.utwente.nl/base/GeoExt/lib/GeoExt.js"></script>
+ 
+  <!-- the control script -->
+  <script src="scripts/control.js"></script>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+ 
+ <!-- here goes the content of the page -->
+   <header id="banner" class="bodygroup">
+     <figure><img src="images/geodesign.jpg" alt="Geodesign" style="width:100px;"></figure>
+    <h1><a href="#">Nepal(Province) <strong> Mashup map with Province Capital</strong></a></h1><br>
+    <nav><ul>
+      <li id="home-li" class="active"><a href="#" onclick="switchDivs('home-'); return false;">Home</a></li>
+      <li id="resources-li"><a href="#" onclick="switchDivs('resources-'); return false;">Resources</a></li>
+      <li id="contact-li"><a href="#" onclick="switchDivs('contact-'); return false;">Contact</a></li>
+    </ul></nav>
+  </header>
+  <div id="home-div">
+  <section id="first" class="bodygroup">
+    <hgroup>
+      <h2>Spatial Data Viewer</h2>  
+    </hgroup>
+   <!-- <article>
+      <div id="viewer-panel"></div>
+    </article> -->
+    <article class="">
+     <iframe width="800" height="650" frameborder="0" style="border:0"
+    src="https://www.google.com/maps/d/embed?mid=1agYxZCmhWIBxT38OqqYnp0aqsWYyo-OL">allowfullscreen></iframe>
+  <section id="first" class="bodygroup">
+    </section> <!-- first -->
+    </div>
+ 
+  <div id="resources-div" class="hidediv">
+    <section id="second" class="bodygroup">
+      <hgroup>
+        <h2>Survey Department (नापी विभाग) </h2>
+        <h3>National Geographic Information Infrastructure Division</h3>
+      </hgroup>
+      <article>
+        Maps are the base for the efficient planning and management of all development works. To prepare maps indigenously, and to fulfill the various mapping needs of Government, a central mapping agency, the Survey Department was born in B.S. 2014.
+
+In its early days, the activities of the Survey Department ware focused mainly on cadastral mapping to assist in the collection of land revenue. In B.S. 2019, legislation was passed and revised in B.S. 2021 to allow the Department to prepare maps and Land Registers, which helped not only to assess the revenue, but also to give the individual the right to his land.
+
+All cadastral mapping works of 75 districts of Nepal was completed throughout the kingdom in B.S. 2055. Out of which 38 districts ware mapped without National Control Network and the remaining 37 districts ware mapped with National Control Network. Therefore, the decision was taken to re-survey the districts for which National Control was not used and also decided to prepare parcel plan in urban areas. The present needs of technology demanded that the old mapping should be repeated and with that concept in mind, cadastral re-mapping works was started in 9 districts (Jhapa, Morang, Parsa, Kathmandu, Rupandehi, Banke, Bardiya, Kailali, Kanchanpur) of the kingdom.
+      </article>
+    </section>
+  </div>  <!-- resources -->
+ 
+   <div id="contact-div" class="hidediv">
+    <section id="third" class="bodygroup">
+      <hgroup>
+        <h2>Contact Information</h2>
+      </hgroup>
+      <article>
+        Email: sudarshangtm00@gmail.com <br>
+        Address: Sallaghari, Bhaktapur <br>
+		Contact: +977-9841106623
+      </article>
+    </section>
+  </div>  <!-- contact -->
+
+  <footer class="bodygroup">
+    <p>Updated on March 29th, 2020 by Sudarshan Gautam;<br>ME Geoinformatics, Kathmandu University</a></p>
+  </footer>
+</body>
+ 
+</html>
